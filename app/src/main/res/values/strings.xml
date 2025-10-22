@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Wamans</string>
+    <string name="glowly">Glowly</string>
+    <string name="tonico">Tónico</string>
+    <string name="serum">Serum</string>
+    <string name="limpiador">Limpiador</string>
+    <string name="hidratante">Hidratante</string>
+    <string name="bloqueador">Bloqueador</string>
+    <string name="desmaquillante">Desmaquillante</string>
+    <string name="productos">Productos</string>
+    <string name="progreso">Progreso...</string>
+    <string name="rutina_completa">Marcar rutina completa</string>
+    <string name="rutina_dia">Rutina de dia</string>
+    <string name="rutina_noche">Rutina de noche</string>
+    <string name="perfil">Perfil</string>
+    <string name="dia">Dia</string>
+    <string name="noche">Noche</string>
+    <string name="nuevo_producto">Nuevo producto</string>
+    <string name="nombre">Nombre</string>
+    <string name="tipo">Tipo</string>
+    <string name="uso">Uso</string>
+    <string name="frecuencia">Frecuencia</string>
+    <string name="fecha_apertura">Fecha de apertura</string>
+    <string name="fecha_caducidad">Fecha de caducidad</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="sugerencias_productos">Sugerencias de productos segun tu tipo de piel:</string>
+    <string name="agrega_rutina">Agrega tu rutina</string>
+    <string name="escoge">Escoge</string>
+    <string name="cual_es_tu_nombre">¿Cuál es tu nombre?</string>
+    <string name="ingresa_nombre">Ingresa tu nombre</string>
 </resources>

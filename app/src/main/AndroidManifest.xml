@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wamans">
         <activity
+            android:name=".Nombre"
+            android:exported="false" />
+        <activity
+            android:name=".InicioDeSesion"
+            android:exported="false" />
+        <activity
+            android:name=".inicioDeSesion"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
