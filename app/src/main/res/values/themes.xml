@@ -6,4 +6,47 @@
     </style>
 
     <style name="Theme.Wamans" parent="Base.Theme.Wamans" />
+
+    <style name="TitulosRosa">
+    <item name="fontFamily">@font/childa</item>
+    <item name="android:textColor">@color/casiguindo</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TituloSeccionRosa">
+        <item name="fontFamily">@font/childa</item>
+        <item name="android:textColor">@color/casiguindo</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LetraBaseBlaca">
+        <item name="fontFamily">@font/papernotes</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SubtituloNegro">
+        <item name="fontFamily">@font/papernotes</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubtituloRosa">
+        <item name="fontFamily">@font/papernotes</item>
+        <item name="android:textColor">@color/casiguindo</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Hint">
+        <item name="fontFamily">@font/papernotes</item>
+        <item name="android:textColorHint">@color/casiguindotrans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
 </resources>
