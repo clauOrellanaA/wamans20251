@@ -13,7 +13,8 @@
         android:text="@string/glowly"
         android:fontFamily="@font/childa"
         android:textColor="@color/casiguindo"
-        android:textSize="50dp"
+        android:layout_marginTop="80dp"
+        android:textSize="70dp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -21,14 +22,50 @@
         android:fontFamily="@font/roboto_black"
         android:textColor="@color/black"
         android:text="Iniciar Sesion"
-        android:textSize="14dp"
+        android:textSize="20dp"
 
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="10dp"
         android:text="Ingresa tu email para iniciar sesion"
         />
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="48sp"
+        android:padding="10dp"
+        android:paddingBottom="80dp"
+        android:background="@color/white"
+        android:hint="email@domain.com"
+        android:maxLines="1"
+        />
 
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_margin="15dp"
+        android:text="Continue"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--------------------------------------------- or --------------------------------------------"
+        />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="62dp"
+        android:src="@drawable/con_google" />
+
+    <ImageView
+        android:layout_width="273dp"
+        android:layout_height="56dp"
+        android:src="@drawable/con_apple"
+
+        />
 
 </LinearLayout>
