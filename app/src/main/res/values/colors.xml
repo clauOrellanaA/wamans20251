@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="casiguindo">#CB1454</color>
+    <color name="rosaLeve">#F9DFE1</color>
+    <color name="rosaFuerte">#FF92B4</color>
+    <color name="suaveee">#FFC9DA</color>
+    <color name="objuno">#EB91B0</color>
+    <color name="obdos">#D57C9B</color>
+    <color name="seca">#F77BA7</color>
+    <color name="mixta">#ECA5BE</color>
+    <color name="grasa">#DC5987</color>
+
+
 </resources>
