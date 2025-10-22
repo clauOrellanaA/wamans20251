@@ -14,10 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/ingresa_nombre"
+        app:style="@style/Hint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/cual_es_tu_nombre_pantallaNombre"
@@ -25,6 +27,7 @@
         android:layout_height="wrap_content"
         android:text="@string/cual_es_tu_nombre"
         android:textAlignment="center"
+        app:style="@style/Titulos"
         app:layout_constraintBottom_toTopOf="@+id/ingresa_nombre_pantallaNombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
