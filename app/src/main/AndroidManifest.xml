@@ -15,10 +15,7 @@
             android:name=".Nombre"
             android:exported="false" />
         <activity
-            android:name=".InicioDeSesion"
-            android:exported="false" />
-        <activity
-            android:name=".inicioDeSesion"
+            android:name=".login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
