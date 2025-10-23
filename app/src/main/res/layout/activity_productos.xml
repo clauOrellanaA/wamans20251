@@ -5,6 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InicioDeSesion">
+    tools:context=".Productos"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/productos_pantallaProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/productos"
+        app:style="@style/TitulosRosa"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

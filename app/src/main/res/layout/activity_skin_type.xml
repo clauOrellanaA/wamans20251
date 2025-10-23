@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinType"
+    android:layout_marginTop="20dp">
+
+  <TextView
+      android:id="@+id/cual_es_tu_piel_pantallaSkinType"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/cual_es_tu_tipo_de_piel"
+      app:style="@style/TitulosRosa"
+      android:textAlignment="center"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="650dp"
+      android:weightSum="3"
+      android:orientation="vertical"
+      android:layout_marginTop="10dp"
+      app:layout_constraintTop_toBottomOf="@+id/cual_es_tu_piel_pantallaSkinType">
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:background="@color/grasa"
+          android:text="@string/tipo_grasa"
+          app:style="@style/LetraBaseBlaca"
+          android:textAlignment="center"
+          android:textSize="25sp"
+          android:layout_marginStart="15dp"
+          android:layout_marginEnd="15dp"
+          android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/mixta"
+        android:text="@string/tipo_mixta"
+        app:style="@style/LetraBaseBlaca"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_margin="15dp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/seca"
+        android:text="@string/tipo_seca"
+        app:style="@style/LetraBaseBlaca"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="15dp"/>
+
+  </LinearLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout
+   >

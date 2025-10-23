@@ -30,4 +30,10 @@
     <string name="escoge">Escoge</string>
     <string name="cual_es_tu_nombre">¿Cuál es tu nombre?</string>
     <string name="ingresa_nombre">Ingresa tu nombre</string>
+    <string name="cual_es_tu_tipo_de_piel">¿Cuál es tu tipo de piel?</string>
+    <string name="tipo_grasa">Grasa: produce más aceite de lo normal, lo que genera brillo excesivo y
+        tendencia a imperfecciones como puntos negros o acné.</string>
+    <string name="tipo_mixta">Mixta: Combina zonas secas y zonas grasas</string>
+    <string name="tipo_seca">Seca: tiende a sentirse tirante, áspera o escamosa. Tiene menor producción de aceite,
+        lo que puede provocar falta de elasticidad y una apariencia apagada.</string>
 </resources>
