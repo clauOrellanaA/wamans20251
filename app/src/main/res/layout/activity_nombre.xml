@@ -6,31 +6,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Nombre"
-    android:background="@color/rosaLeve"
     android:paddingLeft="50dp"
     android:paddingRight="50dp">
 
     <EditText
         android:id="@+id/ingresa_nombre_pantallaNombre"
         android:layout_width="match_parent"
-        android:layout_height="40sp"
+        android:layout_height="wrap_content"
         android:hint="@string/ingresa_nombre"
-        android:background="@color/rosaLeve"
-        android:textColor="@color/casiguindo"
+        app:style="@style/Hint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/cual_es_tu_nombre_pantallaNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
         android:text="@string/cual_es_tu_nombre"
-        android:fontFamily="@font/childa"
-        android:textColor="@color/casiguindo"
         android:textAlignment="center"
+        app:style="@style/Titulos"
         app:layout_constraintBottom_toTopOf="@+id/ingresa_nombre_pantallaNombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,10 +37,6 @@
         android:id="@+id/boton_siguiente_pantallaNombre"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/casiguindo"
-        android:fontFamily="@font/papernotes"
         android:text="@string/siguiente"
         app:layout_constraintTop_toBottomOf="@+id/ingresa_nombre_pantallaNombre"
         app:layout_constraintEnd_toEndOf="parent"
