@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".Nombre"
     android:paddingLeft="50dp"
-    android:paddingRight="50dp">
+    android:paddingRight="50dp"
+    android:paddingBottom="10dp">
 
     <EditText
         android:id="@+id/ingresa_nombre_pantallaNombre"
@@ -27,7 +28,8 @@
         android:layout_height="wrap_content"
         android:text="@string/cual_es_tu_nombre"
         android:textAlignment="center"
-        app:style="@style/Titulos"
+        app:style="@style/TitulosRosa"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/ingresa_nombre_pantallaNombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,10 +40,11 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/siguiente"
+        android:backgroundTint="@color/casiguindo"
         app:layout_constraintTop_toBottomOf="@+id/ingresa_nombre_pantallaNombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp" />
 
 
 

@@ -12,10 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wamans">
         <activity
-            android:name=".Nombre"
+            android:name=".Productos"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".SkinType"
+            android:exported="false" />
+        <activity
+            android:name=".Nombre"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
