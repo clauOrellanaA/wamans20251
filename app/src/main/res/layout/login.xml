@@ -65,7 +65,13 @@
         android:layout_width="273dp"
         android:layout_height="56dp"
         android:src="@drawable/con_apple"
-
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:text="By clicking continue, you agree to our Terms of Service and Privacy Policy"
         />
 
 </LinearLayout>
