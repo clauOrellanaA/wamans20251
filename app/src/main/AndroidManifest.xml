@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wamans">
         <activity
+            android:name=".NuevoProducto"
+            android:exported="false" />
+        <activity
             android:name=".Productos"
             android:exported="false" />
         <activity
