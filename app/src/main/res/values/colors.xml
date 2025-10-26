@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gris">#71717B</color>
     <color name="casiguindo">#CB1454</color>
     <color name="rosaLeve">#F9DFE1</color>
     <color name="rosaFuerte">#FF92B4</color>

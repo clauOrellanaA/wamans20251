@@ -36,4 +36,9 @@
     <string name="tipo_mixta">Mixta: Combina zonas secas y zonas grasas</string>
     <string name="tipo_seca">Seca: tiende a sentirse tirante, áspera o escamosa. Tiene menor producción de aceite,
         lo que puede provocar falta de elasticidad y una apariencia apagada.</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="dd_mm_aa">DD/MM/AA</string>
+    <string name="alertar_cuando_est_por_vencer">Alertar cuando esté por vencer</string>
+    <string name="atras">Atrás</string>
 </resources>
