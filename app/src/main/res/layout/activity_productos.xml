@@ -51,7 +51,7 @@
             android:text="@string/limpiador"
             android:textSize="24sp"
             android:textAlignment="center"
-            app:style="@style/TitulosRosa" />
+            style="@style/TitulosRosa" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
