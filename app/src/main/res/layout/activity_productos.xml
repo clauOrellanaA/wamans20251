@@ -19,43 +19,15 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="160dp"
-        android:layout_height="147dp"
-        android:backgroundTint="@color/botonboton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:padding="1dp">
-
-        <ImageView
-            android:id="@+id/imagenlimpiador_pantallaProductos"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@mipmap/limpiador"
-            android:layout_gravity="center"
-            android:layout_marginBottom="8dp"/>
-
-        <TextView
-            android:id="@+id/boton_limpiador_pantallaProductos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/limpiador"
-            android:textSize="24sp"
-            android:textAlignment="center"
-            style="@style/TitulosRosa" />
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
+        app:layout_constraintVertical_bias="0.187" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
