@@ -13,7 +13,7 @@
         android:backgroundTint="@color/rosaLeve"
         android:textColor="@color/black"
         android:layout_marginTop="30dp"
-        android:text="a"
+        android:text=">"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         />
